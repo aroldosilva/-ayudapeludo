@@ -18,6 +18,14 @@ h2 {
     font-family: sans-serif;
 }
 
+.cambioColor {
+    color: #ffffff;
+}
+
+.cambioColor:hover {
+    color: #acacac;
+}
+
 p {
     color: #ffffff;
     font-family: sans-serif;
