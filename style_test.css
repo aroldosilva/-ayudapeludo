@@ -17,34 +17,43 @@ p {
     color: #ffffff;
 }
 
-#menu {
-    width: 200px;
-    height: 800px;
-    float: left;
-    background-color: #fa8072;
-    margin: 0%;
-    padding: 0%;
-}
-
 #contenedor {
-    width: 700px;
+    width: 1060px;
     height: 800px;
-    float: right;
     background-color: #ee82ee;
 }
 
+#menu {
+    width: 200px;
+    height: 20%;
+    float: left;
+    background-color: #fa8072;
+}
+
 #contenido1 {
+    width: 81%;
+    height: 25%;
+    float: right;
     background-color: #00ffff;
 }
 
 #contenido2 {
+    width: 81%;
+    height: 25%;
+    float: right;
     background-color: #ffff00;
 }
 
 #contenido3 {
+    width: 81%;
+    height: 25%;
+    float: right;
     background-color: #ffa500;
 }
 
 #contenido4 {
+    width: 81%;
+    height: 25%;
+    float: right;
     background-color: #ff0000;
 }
