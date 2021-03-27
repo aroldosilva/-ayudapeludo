@@ -12,47 +12,51 @@ a {
     color: #ffffff;
 }
 
+h2 {
+    color: #ffffff;
+}
+
 p {
-    text-decoration: none;
     color: #ffffff;
 }
 
 #contenedor {
     width: 1060px;
     height: 800px;
-    background-color: #ee82ee;
+    background-color: #333333;
 }
 
 #menu {
-    width: 200px;
+    width: 10%;
     height: 20%;
     float: left;
-    background-color: #fa8072;
+    background-color: #333333;
+    margin-top: 2em;
 }
 
 #contenido1 {
-    width: 81%;
+    width: 90%;
     height: 25%;
     float: right;
     background-color: #00ffff;
 }
 
 #contenido2 {
-    width: 81%;
+    width: 90%;
     height: 25%;
     float: right;
     background-color: #ffff00;
 }
 
 #contenido3 {
-    width: 81%;
+    width: 90%;
     height: 25%;
     float: right;
     background-color: #ffa500;
 }
 
 #contenido4 {
-    width: 81%;
+    width: 90%;
     height: 25%;
     float: right;
     background-color: #ff0000;
