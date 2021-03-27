@@ -10,14 +10,17 @@ body {
 a {
     text-decoration: none;
     color: #ffffff;
+    font-family: sans-serif;
 }
 
 h2 {
     color: #ffffff;
+    font-family: sans-serif;
 }
 
 p {
     color: #ffffff;
+    font-family: sans-serif;
 }
 
 #contenedor {
