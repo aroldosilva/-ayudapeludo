@@ -1,0 +1,100 @@
+body {
+    background-color: #f8a745;
+    margin: 0 2em 1em 2em;
+}
+
+.medida {
+    height: 500px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.medidainfo {
+    height: 500px;
+    text-align: center;
+    background-color: #ffe4c4;
+}
+
+.extremos {
+    height: 300px;
+    text-align: center;
+    background-color: #ff9c4a;
+}
+
+.contenedor {
+    background-color: #ffe4c4;
+    padding: 0 2em 0 2em;
+}
+
+
+/*Cabeza*/
+
+.cabeza h1 {
+    color: #ffffff;
+    text-align: right;
+    padding: 1px;
+    background-color: #ffe4c4;
+    font-style: italic;
+}
+
+
+/*Nadvar*/
+
+
+/*Carousel*/
+
+.carousel {
+    width: 86%;
+}
+
+
+/*informacion*/
+
+.info {
+    height: 80%;
+}
+
+.info img {
+    border-radius: 50%;
+    border: 2px solid #e69b2b;
+}
+
+.info h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.info p {
+    text-align: justify;
+}
+
+.incol {
+    background-color: #ff9c4a;
+    border: 1px solid #ffffff;
+    border-radius: 10%;
+}
+
+
+/*animales*/
+
+.animal h1 {
+    background-color: #ff9c4a;
+}
+
+.animales p {
+    height: 40%;
+    font-size: 2em;
+}
+
+.animales a {
+    text-decoration: none;
+    color: #e69b2b;
+}
+
+.animales img {
+    height: 30%;
+    border-radius: 50%;
+}
+
+
+/*pie de pagina*/
