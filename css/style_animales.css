@@ -1,0 +1,56 @@
+body {
+    background-color: #E4941C;
+}
+
+.alto {
+    height: 100vh;
+}
+
+
+/* Extra */
+
+
+/*.cabeza {
+    height: 20vh;
+    background-color: #E4941C;
+}
+
+.nadvar {
+    height: 10vh;
+    background-color: #EA6827;
+}
+
+.footer {
+    height: 20vh;
+    background-color: #EA6827;
+} */
+
+
+/* Titulo */
+
+.titulo {
+    background-color: #ffffff;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 15vh;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+
+/* Cuerpo */
+
+.cuerpo {
+    background-color: #ffffff;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+}
+
+.adopcion {
+    height: 40vh;
+}
+
+a {
+    font-family: 'Lobster', cursive;
+}
