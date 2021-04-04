@@ -1,5 +1,6 @@
 body {
-    background-color: #E4941C;
+    background-color: #f8a745;
+    margin-bottom: 1em;
 }
 
 .alto {
@@ -28,15 +29,12 @@ body {
     height: 300px;
     text-align: center;
     background-color: #ff9c4a;
+    margin: 0 2em 0 2em;
 }
 
-
-/*
 .nadvar {
-    height: 10vh;
-    background-color: #EA6827;
+    margin: 0 2em 0 2em;
 }
-*/
 
 
 /*
