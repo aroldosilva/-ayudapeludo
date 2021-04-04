@@ -14,12 +14,32 @@ body {
     height: 20vh;
     background-color: #E4941C;
 }
+*/
 
+.cabeza h1 {
+    color: #ffffff;
+    text-align: right;
+    padding: 1px;
+    background-color: #ffe4c4;
+    font-style: italic;
+}
+
+.extremos {
+    height: 300px;
+    text-align: center;
+    background-color: #ff9c4a;
+}
+
+
+/*
 .nadvar {
     height: 10vh;
     background-color: #EA6827;
 }
+*/
 
+
+/*
 .footer {
     height: 20vh;
     background-color: #EA6827;
