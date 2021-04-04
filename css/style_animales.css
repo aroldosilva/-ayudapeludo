@@ -73,4 +73,6 @@ body {
 
 a {
     font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: #e69b2b;
 }
