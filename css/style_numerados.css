@@ -1,0 +1,23 @@
+body {
+    background-color: #f8a745;
+}
+
+.alto {
+    height: 100vh;
+}
+
+.titulo {
+    background-color: #ffffff;
+    margin-left: 5em;
+    margin-right: 5em;
+    height: 15vh;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.cuerpo {
+    background-color: #ffffff;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+}
