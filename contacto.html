@@ -60,31 +60,49 @@
         <!-- contacto -->
         <section class="contacto">
             <form action="#" method="POST">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="nombre" placeholder="Ingrese nombre">
-                <label for="name">Apellido Paterno:</label>
-                <input type="text" id="apaterno" name="apaterno" placeholder="Ingrese apellido paterno">
-                <label for="name">Apellido Materno:</label>
-                <input type="text" id="amaterno" name="amaterno" placeholder="Ingrese apellido materno">
-                <label for="email">Correo Electronico:</label>
-                <input type="text" id="email" name="email" placeholder="Ingrese correo electronico">
-                <fieldset>
-                    <label for="identificacion">Selecciona tipo de identificación</label>
-                    <select name="identificacion" id="identificacion">
+                <div>
+                    <label for="name" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="name" name="nombre" placeholder="Ingrese nombre">
+                </div>
+                <div>
+                    <label for="name" class="form-label">Apellido Paterno:</label>
+                    <input type="text" class="form-control" id="apaterno" name="apaterno" placeholder="Ingrese apellido paterno">
+                </div>
+                <div>
+                    <label for="name" class="form-label">Apellido Materno:</label>
+                    <input type="text" class="form-control" id="amaterno" name="amaterno" placeholder="Ingrese apellido materno">
+                </div>
+                <div>
+                    <label for="email" class="form-label">Correo Electronico:</label>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Ingrese correo electronico">
+                </div>
+                <div>
+                    <fieldset>
+                        <label for="identificacion" class="form-label">Selecciona tipo de identificación</label>
+                        <select name="identificacion" id="identificacion">
                         <option value="1"></option>
                         <option value="2">Rut</option>
                         <option value="3">Pasaporte</option>
                     </select>
-                    <input type="ide" id="ide" name="ide" placeholder=" ">
-                </fieldset>
-                <label for="number">Telefono:</label>
-                <input type="number" id="telefono" name="telefono" placeholder="Ingrese telefono">
-                <label for="msg">Comentario:</label><textarea name="mensaje" id="msg" cols="40" rows="4"></textarea>
+                        <input type="ide" class="form-control" id="ide" name="ide" placeholder=" ">
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="number" class="form-label">Telefono:</label>
+                    <input type="number" class="form-control" id="telefono" name="telefono" placeholder="Ingrese telefono">
+                </div>
+                <div>
+                    <label for="ciudad" class="form-label">Ciudad:</label>
+                    <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ingrese ciudad">
+                </div>
+                <div>
+                    <label for="msg" class="form-label">Comentario:</label><textarea name="mensaje" class="form-control" id="msg" cols="40" rows="4"></textarea>
+                </div>
 
-
-
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </div>
             </form>
 
 
