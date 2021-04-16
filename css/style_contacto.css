@@ -41,5 +41,13 @@ body {
 /*Contacto*/
 
 .contacto {
-    height: 100vh;
+    height: 120vh;
+    margin: 3em;
+    padding: 3.5em;
+    background-color: #ffca88;
+    border-radius: 3em;
+}
+
+.button {
+    margin-top: 2em;
 }
