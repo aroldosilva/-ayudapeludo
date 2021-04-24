@@ -59,21 +59,27 @@
         </section>
         <!-- contacto -->
         <section class="contacto d-flex justify-content-center">
-            <form action="#" method="POST">
+            <form action="" class="needs-validation">
                 <h1>¿Quieres saber mas? Contáctanos</h1>
                 <br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-11">
                         <label for="name" class="form-label">Nombre:</label>
-                        <input type="text" class="form-control" id="name" name="nombre" placeholder="Ingrese nombre">
+                        <input type="text" class="form-control" id="name" name="nombre" placeholder="Ingrese nombre" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">Complete el campo</div>
                     </div>
                     <div class="col-lg-4 col-sm-11">
                         <label for="name" class="form-label">Apellido Paterno:</label>
-                        <input type="text" class="form-control" id="apaterno" name="apaterno" placeholder="Ingrese apellido paterno">
+                        <input type="text" class="form-control" id="apaterno" name="apaterno" placeholder="Ingrese apellido paterno" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">Complete el campo</div>
                     </div>
                     <div class="col-lg-4 col-sm-11">
                         <label for="name" class="form-label">Apellido Materno:</label>
-                        <input type="text" class="form-control" id="amaterno" name="amaterno" placeholder="Ingrese apellido materno">
+                        <input type="text" class="form-control" id="amaterno" name="amaterno" placeholder="Ingrese apellido materno" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">Complete el campo</div>
                     </div>
                 </div>
                 <div class="row">
@@ -128,7 +134,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="js/contacto_script.js"></script>
 </body>
 
 
