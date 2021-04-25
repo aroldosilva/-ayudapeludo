@@ -63,13 +63,6 @@
                 <h1>¿Quieres saber mas? Contáctanos</h1>
                 <br>
                 <div class="row">
-                    <div class="col-md-4 position-relative">
-                        <label for="validationTooltip01" class="form-label">First name</label>
-                        <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
-                        <div class="valid-tooltip">
-                            Looks good!
-                        </div>
-                    </div>
                     <div class="col-lg-4 col-sm-11">
                         <label for="name" class="form-label">Nombre:</label>
                         <input type="text" class="form-control" id="name" name="nombre" placeholder="Ingrese nombre" required>
@@ -93,6 +86,8 @@
                     <div class="col-lg-4 col-sm-11">
                         <label for="email" class="form-label">Correo Electrónico:</label>
                         <input type="text" class="form-control" id="email" name="email" placeholder="Ingrese correo electrónico" required>
+                        <div class="valid-feedback"></div>
+                        <div class="invalid-feedback">Complete el campo</div>
                     </div>
                     <div class="col-lg-7 col-sm-11">
                         <fieldset>
@@ -103,19 +98,27 @@
                              <option value="3">Pasaporte</option>
                             </select>
                             <input type="ide" class="form-control" id="ide" name="ide" placeholder=" " required>
+                            <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Complete el campo</div>
                         </fieldset>
                     </div>
                 </div>
                 <div>
                     <label for="number" class="form-label">Teléfono:</label>
                     <input type="number" class="form-control" id="telefono" name="telefono" placeholder="Ingrese teléfono" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">Complete el campo</div>
                 </div>
                 <div>
                     <label for="ciudad" class="form-label">Ciudad:</label>
                     <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ingrese ciudad" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">Complete el campo</div>
                 </div>
                 <div>
                     <label for="msg" class="form-label">Comentario:</label><textarea name="mensaje" class="form-control" id="msg" cols="40" rows="4" required></textarea>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">Complete el campo</div>
                 </div>
 
                 <div class="button align-items-center">
