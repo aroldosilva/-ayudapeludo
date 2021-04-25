@@ -90,17 +90,24 @@
                         <div class="invalid-feedback">Complete el campo</div>
                     </div>
                     <div class="col-lg-7 col-sm-11">
-                        <fieldset>
-                            <label for="identificacion" class="form-label">Selecciona tipo de identificación</label>
-                            <select name="identificacion" id="identificacion">
-                             <option value="1"></option>
+                        <div>
+                            Seleccione identificador :
+                        </div>
+                        <div class="col-lg-4 col-sm-4">
+                            <label for="identificacion" class="form-label"></label>
+                            <select class="form-select" name="identificacion" id="identificacion" required>
+                             <option selected disabled value="" value="1"></option>
                              <option value="2">Rut</option>
                              <option value="3">Pasaporte</option>
                             </select>
+                            <div class="valid-feedback"></div>
+                            <div class="invalid-feedback">Complete el campo</div>
+                        </div>
+                        <div>
                             <input type="ide" class="form-control" id="ide" name="ide" placeholder=" " required>
                             <div class="valid-feedback"></div>
                             <div class="invalid-feedback">Complete el campo</div>
-                        </fieldset>
+                        </div>
                     </div>
                 </div>
                 <div>
