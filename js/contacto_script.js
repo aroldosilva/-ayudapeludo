@@ -18,3 +18,33 @@
             }, false)
         })
 })()
+
+// Mi localización
+
+if (navigator.geolocation) {
+
+    navigator.geolocation.getCurrentPosition(success, error, options);
+
+} else {
+    alert("puedes usar GEO")
+}
+
+var options = {
+    EnableHighAccuracy: true,
+    Timeout: 500,
+    MaximunAge: 0
+}
+
+function success(geolocationPosition) {
+
+    let coords = geolocationPosition.coords;
+
+    document.getElementById("mymap").innerHTML = "Latitud: " + coords.latitude + "<br>" + "Longitud:" + coords.longitude;
+
+
+}
+
+function error(err) {
+
+    document.getElementById("mymap").innerHTML = err.message;
+}
