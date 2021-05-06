@@ -3,6 +3,10 @@ body {
     margin: 0 2em 1em 2em;
 }
 
+#mymap {
+    height: 500px;
+}
+
 .medida {
     height: 500px;
     text-align: center;
